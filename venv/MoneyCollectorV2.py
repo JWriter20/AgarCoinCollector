@@ -51,10 +51,6 @@ def collectStuff():
             label.click()
         if label.text == 'Open':
             label.click()
-            skipButton = driver.find_element_by_id('')
-            skipButton.click()
-            closeButton = driver.find_element_by_id('')
-            closeButton.click()
     driver.close()
 
 
